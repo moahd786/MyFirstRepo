@@ -3,9 +3,6 @@ using namespace std;
 //template < typename T>
 int main()
 {
-
-	
-
 	int arr[5] = { 1,9,6,4,8 };
 
 	for (int i = 0; i < 5; i++)
