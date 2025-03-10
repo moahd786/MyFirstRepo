@@ -25,5 +25,35 @@ int main()
 		cout << arr[i] << ",";
 	}
 	cout << " }";
+
+	string stringArray[4] = { "apple", "orange", "banana", "grape" };
+
+	cout << "\n\n{ ";
+	for (int i = 0; i < 4; i++)
+	{
+		cout << stringArray[i] << ",";
+	}
+	cout << " }";
+
+
+	for (int i = 0; i < 4; i++)
+	{
+		for (int j = i + 1; j < 4; j++)
+		{
+			if (stringArray[i] > stringArray[j])
+			{
+				swap(stringArray[i], stringArray[j]);
+			}
+		}
+	}
+
+
+	cout << "\n\n{ ";
+	for (int i = 0; i < 4; i++)
+	{
+		cout << stringArray[i] << ",";
+	}
+	cout << " }";
+
 	return 0;
 }
