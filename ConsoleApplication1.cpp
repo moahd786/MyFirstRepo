@@ -1,10 +1,14 @@
 #include <iostream>
 using namespace std;
-//template < typename T>
 int main()
 {
 	int arr[5] = { 1,9,6,4,8 };
-
+	cout << "{ ";
+	for (int i = 0; i < 5; i++)
+	{
+		cout << arr[i] << ",";
+	}
+	cout << " }\n\n\n";
 	for (int i = 0; i < 5; i++)
 	{
 		for (int j = i+1; j < 5; j++)
